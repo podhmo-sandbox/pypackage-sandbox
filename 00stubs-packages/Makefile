@@ -1,9 +1,11 @@
 foo-install:
 	pip install -e foo
 foo-run:
-	python examples/runfoo.py
+	python examples/ok.py
+	python examples/ng.py
 foo-mypy:
-	mypy --strict examples/runfoo.py
+	mypy --strict examples/ok.py
+	mypy --strict examples/ng.py
 foo-uninstall:
 	pip uninstall foo
 foo:
@@ -17,9 +19,11 @@ foo2-install:
 	cd foo && pip install -e .
 	cd foo-stubs && pip install -e .
 foo2-run:
-	python examples/runfoo.py
+	python examples/ok.py
+	python examples/ng.py
 foo2-mypy:
-	mypy --strict examples/runfoo.py
+	mypy --strict examples/ok.py
+	mypy --strict examples/ng.py
 foo2-uninstall:
 	pip uninstall foo foo-stubs
 foo2:
