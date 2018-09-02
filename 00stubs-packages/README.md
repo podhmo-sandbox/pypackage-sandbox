@@ -1,9 +1,9 @@
 see: https://github.com/ethanhs/pep-561
 
-## typed-packagesとstubs-packages
+## typed-packagesとstub-package
 
 - typed-packagesは型定義が含まれたパッケージのこと
-- stubs-packagesは対象とするパッケージに対するスタブファイル(型情報)を提供するパッケージのこと
+- stub-packageは対象とするパッケージに対するスタブファイル(型情報)を提供するパッケージのこと
 
 ## subs-packages
 
